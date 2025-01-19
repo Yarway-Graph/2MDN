@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("Images accueil/ile de goree25.jpeg");
+}
+
+.haut{
+    background-color: black; width: 1895px;
+    height: 350px;
+    opacity: 80%;
+}
+
+#logo{
+    width: 400px;
+    margin-left: 695px;
+    margin-top: 35px;
+}
+
+nav{
+    display: flex;
+    margin-left: 280px;
+}
+
+li{
+    color: white;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-top: 110px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-weight: 120px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+h3{
+    font-size: 25px;
+    color: white;
+    margin-top: -50px;
+}
+
+p{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#definition{ 
+    border-radius: 30px;
+    background-color: rgb(250,168,5);
+    padding: 20px;
+    height: 250px;
+    font-size: 25px;
+    width: 1500px;
+    margin-right: 8px;
+    margin-left: 0px;
+    margin-top: 100px;
+    margin-left: 180px;
+    opacity: 90%;
+}
+
+#site{
+    list-style-type: circle;
+    font-size: 30px;
+}
+
+.site{
+    list-style-type: initial;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#pieddepage{
+    height: 100px;
+    width: 1895px;
+    background-color: rgb(250,168,5);
+    margin-top: 18px;
+}
+
+.img4{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: rgb(250,168,5); 
+}
+
+#img4{
+    display: flex;
+    margin-left: 290px;
+    margin-top: 60px;
+}
+
+#monument{
+    margin-left: 58px;
+    margin-top: -80px;
+    cursor: pointer;
+}
+
+#gare{
+    margin-left: 73px;
+    cursor: pointer;
+}
+
+#ile{
+    margin-left: 92px;
+    cursor: pointer;
+}
+
+#pont{
+    margin-left: 65px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: rgb(250,168,5);
+}
+
+a:hover{
+    color: rgb(250,168,5);
+}
